@@ -12,6 +12,6 @@ class Authenticate extends Middleware
      */
     protected function redirectTo(Request $request): ?string
 {
-    return $request->expectsJson() ? null : 'http://localhost:5173/connexion';
+    return $request->expectsJson() ? null : 'http://localhost:5173/golle-frontend/connexion';
 }
 }
